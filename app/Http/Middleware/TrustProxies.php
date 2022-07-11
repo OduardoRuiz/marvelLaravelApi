@@ -12,7 +12,11 @@ class TrustProxies extends Middleware
      *
      * @var array<int, string>|string|null
      */
-    protected $proxies;
+    protected $proxies=[
+        'http://192.168.15.13:4200',
+        'http://localhost:4200'
+
+    ];
 
     /**
      * The headers that should be used to detect proxies.
