@@ -8,6 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Character extends Model
 {
     use HasFactory;
-    protected $fillable = ['name', 'linkDetalhe', 'thumbnail'];
+    protected $fillable = ['name', 'linkDetalhe', 'thumbnail', 'user_id'];
 
 }
