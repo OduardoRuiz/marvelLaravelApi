@@ -7,57 +7,73 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+#Laravel ,API MyFavorites Marvel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![GitHub repo size](https://img.shields.io/github/repo-size/OduardoRuiz/PokemonLaravelApi?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/OduardoRuiz/PokemonLaravelApi?style=for-the-badge)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## 💻 Pré-requisitos
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Antes de começar, verifique se você atende aos seguintes requisitos:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Desenvolvido com as seguintes Stacks : 
+* php (8.1.6)
+* Laravel framework (9.19.0)
+* Angular CLI version (13.2.6)
+* Xampp (ou similar)
+* MySQL
+* Composer version 2.3.9
+* Node 16.16.0
+* Git
+* Postman
+* IDE - Visual Studio Code (Extensões: PHP Intephense, Angular Snipptes, Laravel Snippets)
+* Desenvolvidos em OS Windows 11
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## 🚀 Instalando o projeto
 
-### Premium Partners
+Para instalar o projeto, siga estas etapas:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+$ git clone https://github.com/OduardoRuiz/marvelLaravelApi.git
 
-## Contributing
+$ composer install
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+$ cp .env.example .env
 
-## Code of Conduct
+$ php artisan key:generate
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Após isso configurar a conexão com o banco de dados, no arquivo .env
 
-## Security Vulnerabilities
+$ php artisan migrate
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+conferir as tabelas do banco de dados
+
+Print de como ficou ao fim
+![image](https://user-images.githubusercontent.com/59852595/178585582-2470950e-1af7-44d1-a420-d01e6952d461.png)
+
+
+**todas as rotas são testadas pelo postman**
+
+
+após isso abrir o projeto na sua IDE de preferencia, este foi desenvolvido utilizando o VsCode
+
+
+## ☕ Usando API Poketsu
+
+Para usar API Poketsu, é necessario abrir o projeto na IDE escolhida, e realizar build do servidor, atraves do " $php artisan serve ".
+
+
+
+
+
+
+Este projeto utiliza como front end a aplicação Angular  para mais informações <a href="https://github.com/OduardoRuiz/PI4pokemon">Clique aqui</a>.
+
+[⬆ Voltar ao topo](#Laravel)<br>
+
+
 
 ## License
 
