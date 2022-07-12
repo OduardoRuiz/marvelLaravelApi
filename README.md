@@ -69,7 +69,7 @@ Para usar API Poketsu, é necessario abrir o projeto na IDE escolhida, e realiza
 
 
 
-Este projeto utiliza como front end a aplicação Angular  para mais informações <a href="https://github.com/OduardoRuiz/PI4pokemon">Clique aqui</a>.
+Este projeto utiliza como front end a aplicação Angular  para mais informações <a href="https://github.com/OduardoRuiz/marvelAngularApi">Clique aqui</a>.
 
 
 ## License
