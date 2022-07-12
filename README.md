@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-#Laravel ,API MyFavorites Marvel
+#Laravel API MyFavorites Marvel
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/OduardoRuiz/PokemonLaravelApi?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/OduardoRuiz/PokemonLaravelApi?style=for-the-badge)
@@ -70,9 +70,6 @@ Para usar API Poketsu, é necessario abrir o projeto na IDE escolhida, e realiza
 
 
 Este projeto utiliza como front end a aplicação Angular  para mais informações <a href="https://github.com/OduardoRuiz/PI4pokemon">Clique aqui</a>.
-
-[⬆ Voltar ao topo](#Laravel)<br>
-
 
 
 ## License
