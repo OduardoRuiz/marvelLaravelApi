@@ -17,6 +17,7 @@ class UserController extends Controller
             'device_name' => 'required'
         ]);
 
+        $request['password'] = Hash::make($request['password']);
         $user = User::create($request->all());
 
         return response()->json([
@@ -29,8 +30,6 @@ class UserController extends Controller
 
     function login(Request $request)
     {
-
-
         $request->validate([
             'email' => 'required|email',
             'password' => 'required',
@@ -38,18 +37,14 @@ class UserController extends Controller
         ]);
 
 
-
-        $user =  User::where('email', $request->email)->first();
+    $user =  User::where('email', $request->email)->first();
 
         //dados invalidos
         if (!$user || !Hash::check($request->password, $user->password)) {
             return response()->json([
-                'error' => 'Credenciais invalidas'
-            ]);
+                'error' =>  'Credenciais invalidas'
+            ], 401);
         }
-
-
-
         return response()->json(
             [
                 'user' => $user,
