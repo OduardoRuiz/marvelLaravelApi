@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-#Laravel API MyFavorites Marvel
+# Laravel API MyFavorites Marvel
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/OduardoRuiz/PokemonLaravelApi?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/OduardoRuiz/PokemonLaravelApi?style=for-the-badge)
